@@ -48,6 +48,7 @@ UART_HandleTypeDef huart2;
 // messages from uart
 
 /* USER CODE BEGIN PV */
+<<<<<<< HEAD
 uint8_t claveIngresada[6];
 uint8_t claveCorrecta[6] = {1, 2, 3, 4, 5, 6};  // Documento del estudiante
 uint8_t cindex = 0;
@@ -58,6 +59,9 @@ uint8_t successMsg[] = "Success\r\n";
 uint8_t errorMsg[] = "Error\r\n";
 
 
+=======
+int8_t status_system=0;
+>>>>>>> d4b17c19e3fd56fde73d3c56d9c398506d00c44c
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
